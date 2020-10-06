@@ -7,4 +7,5 @@ import lombok.Setter;
 public class Hello {
 
     private String data;
+    private String testData;
 }

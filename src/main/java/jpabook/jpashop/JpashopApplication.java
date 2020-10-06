@@ -11,9 +11,12 @@ public class JpashopApplication {
 		Hello hello = new Hello();
 
 		hello.setData("New Data");
+		hello.setTestData("Test Data");
 		String data = hello.getData();
+		String testData = hello.getTestData();
 
 		System.out.println("data = " + data); // soutv - sysout - InteliJ
+		System.out.println("testData = " + testData);
 
 		SpringApplication.run(JpashopApplication.class, args);
 	}
